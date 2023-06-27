@@ -1,0 +1,42 @@
+* {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 218, 218);
+}
+
+/* Fonts to try  - only a few in this version of Linux?
+     ws = web safe
+    Times New Roman   ws (serif)
+    Georgia    ws
+    Garamond   ws
+    Arial    ws   (sans-serif)
+    Verdana  ws
+    Helvetica
+    Courier New     ws  (monospace)  I don't like these
+    Lucida Console
+    Monaco   (monospace that didn't work - wasn't in VS Code list)
+    Brush Script MT   ws (cursive) - didn't work
+    Lucida Handwriting  - didn't work
+    Copperplate  (fantasy) - fantasy ones didn't work
+    Papyrus
+    Tahoma   (other web safe)  - didn't work
+    Trebuchet MS   - didn't work
+     */
+
+img {
+    width: 275px;
+    height: auto;
+}
+
+div {
+    border: 2px solid black;
+    width: 275px;
+}
+
+.options {
+    color: hsl(103, 50%, 47%);
+}
+
+#check {
+    color: red;
+}
