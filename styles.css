@@ -28,15 +28,55 @@ img {
     height: auto;
 }
 
-div {
-    border: 2px solid black;
-    width: 275px;
+h1 {
+   font-size: 40px;
+   margin: 20px auto 10px;
 }
+
+h2 {
+    font-size: 32px;
+    margin: 18px auto 10px;
+ }
+
+ p, li {
+    font-size: 18px;
+ }
 
 .options {
     color: hsl(103, 50%, 47%);
 }
 
+.welcome {
+    text-align: center;
+}
+
 #check {
     color: red;
+}
+
+.menus {
+    text-align: center;
+}
+
+.menu-box {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    height: 350px;
+    width: 425px;
+    margin: 15px;
+}
+
+.menu-box img {
+    height: 250px;
+    width: auto;
+    padding: 30px 20px 10px;
+}
+
+.menu-box a {
+    font-size: 25px;
+}
+
+a {
+    display: block;
 }
