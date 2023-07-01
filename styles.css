@@ -54,6 +54,20 @@ h2 {
     color: red;
 }
 
+#box1 {
+    border-color: red;
+}
+
+#box2 {
+    width: 335px;
+    border-color: green;
+}
+
+#box3 {
+    border-color: blue;
+    width: 455px;
+}
+
 .menus {
     text-align: center;
 }
